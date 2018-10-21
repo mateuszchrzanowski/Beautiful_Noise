@@ -1,0 +1,198 @@
+/*GLOBAL*/
+body{
+	font-family: 'KoHo', sans-serif !important;
+}
+
+/*
+a{
+	text-decoration: none;
+}
+*/
+
+/*JUMBOTRON*/
+#my-page-header{
+	margin-bottom: 0;
+	/*background: red;*/
+	background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(../img/thisquietarmy.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #ffffff;
+	width: 100%;
+	/*min-height: 100vh;*/
+	display: flex;
+	align-items: center;
+}
+
+#my-title{
+	text-transform: uppercase;
+	font-size: 75px;
+}
+
+#my-description{
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+#my-logo{
+	width: 100px;
+	margin-bottom: 50px;
+}
+
+#my-separator{
+	width: 75px;
+	height: 5px !important;
+	background: #ffd400;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+/*GRID*/
+.my-cover{
+	padding: 0 !important;
+	height: 500px;
+	/*-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100% !important;*/
+	transition: all 0.2s ease-in-out;
+}
+
+#zimpel-ziolek{
+	background: url(../img/zimpel-ziolek.jpg) no-repeat center center;
+}
+
+#thaw{
+	background: url(../img/thaw.jpg) no-repeat center center;
+}
+
+#bnnt{
+	background: url(../img/bnnt.jpg) no-repeat center center;
+}
+
+#lotto{
+	background: url(../img/lotto.jpg) no-repeat center center;
+}
+
+#innercity-ensemble{
+	background: url(../img/innercity-ensemble.jpg) no-repeat center center;
+}
+
+#lonker-see{
+	background: url(../img/lonker-see.jpg) no-repeat center center;
+}
+
+#trys-saules{
+	background: url(../img/trys-saules.jpg) no-repeat center center;
+}
+
+#thaw-echoes{
+	background: url(../img/thaw-echoes.jpg) no-repeat center center;
+}
+
+#kristen{
+	background: url(../img/kristen.jpg) no-repeat center center;
+}
+
+#stara-rzeka{
+	background: url(../img/stara-rzeka.jpg) no-repeat center center;
+}
+/*
+.my-covers a{
+	width: 100%;
+	height: 100%;
+}
+
+.row a:hover .info{
+	
+}
+
+.info{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: rgba(237,20,91,0.95);
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+	z-index: 3;
+}
+*/
+.my-review-link{
+	text-decoration: none !important;
+}
+
+.my-overlay{
+	/*background: #ffd400 center center;*/
+	/*background: #e3bd00 center center;*/
+	/*background: #d8c829 center center;*/
+	background: #ffc91e center center;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.my-text{
+	/*position: relative;*/
+	height: 100%;
+	width: 100%;
+	/*padding-top: 20%;*/
+	/*padding-bottom: 20%;*/
+	padding-top: 120px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.my-album-title{
+	font-size: 45px;
+	color: #ffffff;
+}
+
+.my-artist{
+	font-size: 20px;
+	color: #000000;
+	/*font-style: italic;*/
+	text-transform: uppercase;
+}
+
+.my-quote{
+	color: #000000;
+}
+
+.my-cover:hover .my-review-link .my-overlay{
+	visibility: visible;
+	opacity: 0.97;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+/*
+.my-cover:hover .my-review-link .my-overlay .my-text{
+	opacity: 1 !important;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
