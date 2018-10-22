@@ -1,6 +1,6 @@
 /*GLOBAL*/
-body{
-	font-family: 'KoHo', sans-serif !important;
+body, h1, p, div{
+	font-family: 'KoHo', sans-serif;
 }
 
 /*
@@ -14,6 +14,7 @@ a{
 	margin-bottom: 0;
 	/*background: red;*/
 	background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(../img/thisquietarmy.jpg);
+	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -39,63 +40,94 @@ a{
 	margin-bottom: 50px;
 }
 
-#my-separator{
+#my-separator, hr{
 	width: 75px;
-	height: 5px !important;
+	height: 5px;
 	background: #ffd400;
 	margin-top: 25px;
 	margin-bottom: 40px;
 }
 
 /*GRID*/
-.my-cover{
-	padding: 0 !important;
+.row .my-cover{
+	padding: 0;
 	height: 500px;
 	/*-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	background-size: 100% !important;*/
-	transition: all 0.2s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 #zimpel-ziolek{
-	background: url(../img/zimpel-ziolek.jpg) no-repeat center center;
+	background: url(../img/zimpel-ziolek.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #thaw{
-	background: url(../img/thaw.jpg) no-repeat center center;
+	background: url(../img/thaw.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #bnnt{
-	background: url(../img/bnnt.jpg) no-repeat center center;
+	background: url(../img/bnnt.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #lotto{
-	background: url(../img/lotto.jpg) no-repeat center center;
+	background: url(../img/lotto.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #innercity-ensemble{
-	background: url(../img/innercity-ensemble.jpg) no-repeat center center;
+	background: url(../img/innercity-ensemble.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #lonker-see{
-	background: url(../img/lonker-see.jpg) no-repeat center center;
+	background: url(../img/lonker-see.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #trys-saules{
-	background: url(../img/trys-saules.jpg) no-repeat center center;
+	background: url(../img/trys-saules.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #thaw-echoes{
-	background: url(../img/thaw-echoes.jpg) no-repeat center center;
+	background: url(../img/thaw-echoes.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #kristen{
-	background: url(../img/kristen.jpg) no-repeat center center;
+	background: url(../img/kristen.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #stara-rzeka{
-	background: url(../img/stara-rzeka.jpg) no-repeat center center;
+	background: url(../img/stara-rzeka.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
+
 /*
 .my-covers a{
 	width: 100%;
@@ -117,9 +149,11 @@ a{
 	z-index: 3;
 }
 */
-.my-review-link{
-	text-decoration: none !important;
+
+.row .my-review-link{
+	text-decoration: none;
 }
+
 
 .my-overlay{
 	/*background: #ffd400 center center;*/
@@ -130,8 +164,8 @@ a{
 	height: 100%;
 	visibility: hidden;
 	opacity: 0;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
 .my-text{
@@ -175,6 +209,24 @@ a{
 }
 */
 
+#my-page-footer{
+	background: #000000;
+	margin-bottom: 0;
+}
+
+#my-socials{
+	margin-bottom: 50px;
+}
+
+#my-socials img{
+	width: 30px;
+	margin: 20px;
+	
+}
+
+#my-copy{
+	color: #ffffff;
+}
 
 
 
